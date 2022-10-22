@@ -1,0 +1,32 @@
+{
+    "name": "@tigeu/exchange",
+    "version": "v1.0.0-beta",
+    "description": "",
+    "main": "index.ts",
+    "scripts": {
+        "start": "ts-node src/",
+        "build": "ts-node src/Deploy"
+    },
+    "author": "cobeol",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/builders": "^1.1.0",
+        "@discordjs/rest": "^1.0.1",
+        "axios": "^0.27.2",
+        "discord.js": "^14.3.0",
+        "moment": "^2.29.4",
+        "moment-timezone": "^0.5.37",
+        "mysql2": "^2.3.3",
+        "node-schedule": "^2.1.0",
+        "winston": "^3.8.1",
+        "winston-daily-rotate-file": "^4.7.1"
+    },
+    "devDependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/moment": "^2.13.0",
+        "@types/moment-timezone": "^0.5.30",
+        "@types/node": "^18.6.4",
+        "@types/node-schedule": "^2.1.0",
+        "@types/winston": "^2.4.4"
+    }
+}
